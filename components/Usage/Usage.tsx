@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import Image from 'next/image';
-import useCopyToClipboard from '@/hooks/useCopyToClipboard';
+import useCopyToClipboard from '@/src/shared/hooks/useCopyToClipboard';
 import copyIcon from './copy.svg';
 import styles from './Usage.module.css';
 
